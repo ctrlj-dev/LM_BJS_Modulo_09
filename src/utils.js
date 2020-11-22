@@ -51,10 +51,12 @@ const createCharacterRow = character => {
     );
   };
   
+  
   const createParagraph = text => {
     const element = document.createElement("p");
     element.append(text);
     return element;
   };
+  
   
   export { createCharacterRow, showCharacter };
